@@ -74,7 +74,7 @@ return [
                 'class' => 'Doctrine\ORM\Mapping\Driver\AnnotationDriver',
                 'cache' => 'array',
                 'paths' => [
-                    'src/Entity',
+                    'module/Application/src/Entity',
                 ],
             ],
 
