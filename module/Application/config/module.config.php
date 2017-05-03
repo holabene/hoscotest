@@ -52,4 +52,19 @@ return [
             __DIR__ . '/../view',
         ],
     ],
+    'console' => [
+        'router' => [
+            'routes' => [
+                'hello-world' => [
+                    'options' => [
+                        'route'    => 'hello-world <name>',
+                        'defaults' => [
+                            'controller' => 'Application\Controller\Index',
+                            'action'     => 'hello'
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    ]
 ];
