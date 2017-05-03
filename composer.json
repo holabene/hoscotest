@@ -1,6 +1,7 @@
 {
     "require": {
-        "zendframework/zend-mvc": "^3.1"
+        "zendframework/zend-mvc": "^3.1",
+        "doctrine/doctrine-orm-module": "^1.1"
     },
     "autoload": {
         "psr-4": {
